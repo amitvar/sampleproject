@@ -23,9 +23,9 @@
 	</properties>
 	   <!-- To create the tag in git repo provide the repo details-->
 	   <scm>
-			<url>https://github.com/devopstoolsteam/javahome-ims-project</url>
-			<connection>scm:git:https://github.com/devopstoolsteam/javahome-ims-project.git</connection>
-			<developerConnection>scm:git:https://github.com/devopstoolsteam/javahome-ims-project.git</developerConnection>
+		   <url>https://github.com/amitvar/sampleproject</url>
+		   <connection>scm:git:https://github.com/amitvar/sampleproject.git</connection>
+		   <developerConnection>scm:git:https://github.com/amitvar/sampleproject.git</developerConnection>
 	  
        <tag>HEAD</tag>
      </scm>
@@ -34,12 +34,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://localhost:8082/nexus/content/repositories/releases/</url>
+            <url>http://localhost:8081/nexus/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://localhost:8082/nexus/content/repositories/snapshots/</url>
+            <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
     </distributionManagement> 
 	<!-- Nexus server details end -->
